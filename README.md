@@ -4,8 +4,8 @@ This notebook uses https://github.com/oobabooga/text-generation-webui to run con
 ▶⏩Run all the cells and a public gradio URL will appear at the bottom in around 5 minutes.🤞🐱‍👤
 
 **Added support of simple UI for testing LLMs. Instead of using Gradio and logging inputs into their servers, you can run a link within Colab's external HTTP service.<br>
--Pickle tensors added as an option to download first, before Safetensors if both are available.<br>
--AutoGPTQ used as defalut <br>
+**Pickle tensors added as an option to download first, before Safetensors if both are available.<br>
+**AutoGPTQ used as defalut <br>
 
 Updates:<br>
 *updated GPTQ to latest version for Vicuna 13b 1.1 support<br>
