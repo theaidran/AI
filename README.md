@@ -2,6 +2,11 @@ LLM text generation notebook for Google Colab<br>
 This notebook uses https://github.com/oobabooga/text-generation-webui to run conversational models in chat mode.
 
 ▶⏩Run all the cells and a public gradio URL will appear at the bottom in around 5 minutes.🤞🐱‍👤<br>
+
+| Colab | Info
+| --- | --- |
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/theaidran/AI/blob/main/simple_ui_4bit_textgen_gdrive.ipynb) | simple_ui_colab
+
 Updates:<br>
 **Added support of simple UI for testing LLMs. Instead of using Gradio and logging inputs into their servers, you can run a link within Colab's external HTTP service.<br>
 **Cuda branch added during installation GPTQ
