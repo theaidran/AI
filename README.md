@@ -5,7 +5,7 @@ This notebook uses https://github.com/oobabooga/text-generation-webui to run con
 
 | Colab | Info
 | --- | --- |
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/theaidran/AI/blob/main/simple_ui_4bit_textgen_gdrive.ipynb) | simple_ui_colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/theaidran/AI/blob/main/simple_ui_4bit_textgen_gdrive.ipynb) | simple_ui_colab
 
 Updates:<br>
 **Added support of simple UI for testing LLMs. Instead of using Gradio and logging inputs into their servers, you can run a link within Colab's external HTTP service.<br>
