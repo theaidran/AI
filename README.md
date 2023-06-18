@@ -23,7 +23,7 @@ So in the case of 30k words, it will take 30 min for summarization.
 * **chat_language**: if different than English, activates automatic translation using Google Translate, allowing you to communicate with the bot in a different language.
 
 ## Updates
-* Support of simple UI for testing LLMs. You can run a link within Colab's external HTTP service.<br>
+* Support of simple UI for testing LLMs. You can run a link within Colab's external HTTPs service.<br>
 * check [README](https://github.com/theaidran/AI/blob/main/README.md) on github for Updates
 
 ## Credits
