@@ -1,42 +1,46 @@
-LLM text generation notebook for Google Colab<br>
-This notebook uses https://github.com/oobabooga/text-generation-webui to run conversational models in chat mode.
+# Make me a summary text generation for Google Colab
 
-▶⏩Run all the cells and a public gradio URL will appear at the bottom in around 5 minutes.🤞🐱‍👤<br>
+This notebook uses [https://github.com/oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
+
+▶⏩Run all the cells and a URL will appear at the bottom in around 5 minutes.🤞🐱‍👤 
+
+Then, choose the .txt file to be summarized and click the "Make summary" button.
+Summarization will be automatically saved to your browser downloads directory.
+The summary file will also be available in Colab /content directory.
+
+On a free account, it is relatively slow and takes about 1 minute of work for 1k input words.
+So in the case of 30k words, it will take 30 min for summarization.
+
+## Parameters
+
+* **save_logs_to_google_drive**: saves your chat logs, characters, and softprompts to Google Drive automatically, so that they will persist across sessions.
+* **text_streaming**: streams the text output in real time instead of waiting for the full response to be completed.
+* **load_in_8bit**: loads the model with 8-bit precision, reducing the GPU memory usage by half. This allows you to use the full 2048 prompt length without running out of memory, at a small accuracy and speed cost.
+* **chat_language**: if different than English, activates automatic translation using Google Translate, allowing you to communicate with the bot in a different language.
+
+## Updates
+
+* check [README](https://github.com/theaidran/AI/blob/main/README.md) on github for Updates
+
+## Credits
+
+Based on the [original notebook by 81300](https://colab.research.google.com/github/81300/AI-Notebooks/blob/main/Colab-TextGen-GPU.ipynb).
+
+Forked from [Philio](https://github.com/pcrii/Philo-Colab-Collection/blob/main/4bit_TextGen_Gdrive.ipynb).
+
+Forked from [eucdee](https://github.com/eucdee/AI/blob/main/4bit_TextGen_Gdrive.ipynb).
+
+
+
 
 | Colab | Info
 | --- | --- |
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/theaidran/AI/blob/main/simple_ui_4bit_textgen_gdrive.ipynb) | simple_ui_colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/theaidran/AI/blob/main/make_me_summary_ui_4bit_textgen_gdrive.ipynb) | make_me_summary_ui_colab
 
 Updates:<br>
 **Added support of simple UI for testing LLMs. Instead of using Gradio and logging inputs into their servers, you can run a link within Colab's external HTTP service.<br>
-**Cuda branch added during installation GPTQ
 
-*updated GPTQ to latest version for Vicuna 13b 1.1 support<br>
-*added "print installed models" to installer cell (usefull for gdrive install)<br>
-*set gdrive and save all to true (adds memory and fast start)<br>
-*added more interresting models to choose from<br>
-- reeducator/vicuna-13b-free<br>
-https://huggingface.co/reeducator/vicuna-13b-free<br>
-- TheBloke/vicuna-13B-1.1-GPTQ-4bit-128g<br>
-https://huggingface.co/TheBloke/vicuna-13B-1.1-GPTQ-4bit-128g</url><br>
-- TheBloke/wizardLM-7B-GPTQ 0.46 tokens/s (need --model_type llama argument to launch, also manualy remove no-act-order model)<br>
-https://huggingface.co/TheBloke/wizardLM-7B-GPTQ<br>
-- Aitrepreneur/wizardLM-7B-GPTQ-4bit-128g 0.46 tokens/s (need --model_type llama argument to launch)<br>
-https://huggingface.co/Aitrepreneur/wizardLM-7B-GPTQ-4bit-128g<br>
-- gozfarb/oasst-llama13b-4bit-128g 1.62 tokens/s<br>
-https://huggingface.co/gozfarb/oasst-llama13b-4bit-128g<br>
-- catalpa/codecapybara-4bit-128g-gptq<br>
-https://huggingface.co/catalpa/codecapybara-4bit-128g-gptq<br>
-- mzedp/dolly-v2-12b-GPTQ-4bit-128g<br>
-https://huggingface.co/mzedp/dolly-v2-12b-GPTQ-4bit-128g<br>
-- autobots/pythia-12b-gptqv2-4bit<br>
-https://huggingface.co/autobots/pythia-12b-gptqv2-4bit<br>
-- TheBloke/medalpaca-13B-GPTQ-4bit<br>
-https://huggingface.co/TheBloke/medalpaca-13B-GPTQ-4bit<br>
-- TheBloke/gpt4-alpaca-lora-13B-GPTQ-4bit-128g<br>
-https://huggingface.co/TheBloke/gpt4-alpaca-lora-13B-GPTQ-4bit-128g<br>
-- catalpa/codecapybara-4bit-128g-gptq<br>
-https://huggingface.co/catalpa/codecapybara-4bit-128g-gptq<br>
+
 
 
 
