@@ -11,6 +11,13 @@ The summary file will also be available in Colab /content directory.
 On a free account, it is relatively slow and takes about 1 minute of work for 1k input words.
 So in the case of 30k words, it will take 30 min for summarization.
 
+| Colab | Info
+| --- | --- |
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/theaidran/AI/blob/main/make_me_summary_ui_4bit_textgen_gdrive.ipynb) | make_me_summary_ui_colab
+
+Updates:<br>
+**Added support of simple UI for testing LLMs. Instead of using Gradio and logging inputs into their servers, you can run a link within Colab's external HTTP service.<br>
+
 ## Parameters
 
 * **save_logs_to_google_drive**: saves your chat logs, characters, and softprompts to Google Drive automatically, so that they will persist across sessions.
@@ -31,14 +38,6 @@ Forked from [Philio](https://github.com/pcrii/Philo-Colab-Collection/blob/main/4
 Forked from [eucdee](https://github.com/eucdee/AI/blob/main/4bit_TextGen_Gdrive.ipynb).
 
 
-
-
-| Colab | Info
-| --- | --- |
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/theaidran/AI/blob/main/make_me_summary_ui_4bit_textgen_gdrive.ipynb) | make_me_summary_ui_colab
-
-Updates:<br>
-**Added support of simple UI for testing LLMs. Instead of using Gradio and logging inputs into their servers, you can run a link within Colab's external HTTP service.<br>
 
 
 
