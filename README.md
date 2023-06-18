@@ -15,9 +15,6 @@ So in the case of 30k words, it will take 30 min for summarization.
 | --- | --- |
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/theaidran/AI/blob/main/make_me_summary_ui_4bit_textgen_gdrive.ipynb) | make_me_summary_ui_colab
 
-Updates:<br>
-**Added support of simple UI for testing LLMs. You can run a link within Colab's external HTTP service.<br>
-
 ## Parameters
 
 * **save_logs_to_google_drive**: saves your chat logs, characters, and softprompts to Google Drive automatically, so that they will persist across sessions.
@@ -26,7 +23,7 @@ Updates:<br>
 * **chat_language**: if different than English, activates automatic translation using Google Translate, allowing you to communicate with the bot in a different language.
 
 ## Updates
-
+* Support of simple UI for testing LLMs. You can run a link within Colab's external HTTP service.<br>
 * check [README](https://github.com/theaidran/AI/blob/main/README.md) on github for Updates
 
 ## Credits
