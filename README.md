@@ -16,6 +16,9 @@ Summarization is in the form of bullet points.
 | --- | --- |
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/theaidran/AI/blob/main/make_me_summary_ui_4bit_textgen_gdrive.ipynb) | make_me_summary_ui_colab
 
+
+The default average ratio of summarization/compression is about 5 and is dependent on the parameters, mainly the repetition penalty.
+
 ## Parameters
 
 * **save_logs_to_google_drive**: saves your chat logs, characters, and softprompts to Google Drive automatically, so that they will persist across sessions.
