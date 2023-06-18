@@ -21,7 +21,7 @@ Summarization is in the form of bullet points.
 
 The default average summarization/compression ratio is about 5 and is dependent on the parameters, mainly the repetition penalty.
 
-## Parameters
+## Options
 
 * **save_logs_to_google_drive**: saves your chat logs, characters, and softprompts to Google Drive automatically, so that they will persist across sessions.
 * **text_streaming**: streams the text output in real time instead of waiting for the full response to be completed.
