@@ -16,7 +16,7 @@ So in the case of 30k words, it will take 30 min for summarization.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/theaidran/AI/blob/main/make_me_summary_ui_4bit_textgen_gdrive.ipynb) | make_me_summary_ui_colab
 
 Updates:<br>
-**Added support of simple UI for testing LLMs. Instead of using Gradio and logging inputs into their servers, you can run a link within Colab's external HTTP service.<br>
+**Added support of simple UI for testing LLMs. You can run a link within Colab's external HTTP service.<br>
 
 ## Parameters
 
