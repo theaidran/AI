@@ -17,7 +17,9 @@ Summarization is in the form of bullet points.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/theaidran/AI/blob/main/make_me_summary_ui_4bit_textgen_gdrive.ipynb) | make_me_summary_ui_colab
 
 
-The default average ratio of summarization/compression is about 5 and is dependent on the parameters, mainly the repetition penalty.
+
+
+The default average summarization/compression ratio is about 5 and is dependent on the parameters, mainly the repetition penalty.
 
 ## Parameters
 
