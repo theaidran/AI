@@ -9,7 +9,7 @@ Summarization will be automatically saved to your browser downloads directory.
 The summary file will also be available in Colab /content directory.
 
 On a free account, it is relatively slow and takes about 1 minute of work for 1k input words.
-So in the case of 30k words, it will take 30 min for summarization.
+So in the case of 30k words, it will take about 30 min for summarization.
 
 | Colab | Info
 | --- | --- |
