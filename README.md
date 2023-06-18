@@ -4,7 +4,7 @@ This notebook uses [https://github.com/oobabooga/text-generation-webui](https://
 
 ▶⏩Run all the cells and a URL will appear at the bottom in around 5 minutes.🤞🐱‍👤 
 
-Then, choose the .txt file to be summarized and click the "Make summary" button.
+Then, from the last cell choose the .txt file to be summarized and click the "Make summary" button.
 Summarization will be automatically saved to your browser downloads directory.
 The summary file will also be available in Colab /content directory.
 
