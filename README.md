@@ -8,8 +8,6 @@ Then, from the last cell choose the .txt file to be summarized and click the "Ma
 Summarization will be automatically saved to your browser downloads directory.
 The summary file will also be available in Colab /content directory.
 
-On a free account, it is relatively slow and takes about 1 minute of work for 1k input words.
-So in the case of 30k words, it will take about 30 minutes. 
 Summarization is in the form of bullet points.
 
 | Colab | Info
